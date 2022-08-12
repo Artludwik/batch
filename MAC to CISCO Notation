@@ -28,6 +28,7 @@ set str=%str:/=%
 set str=%str:+=%
 set str=%str:$=%
 set str=%str:^=%
+set str=%str:#=%
 set str=%str:A=a%
 set str=%str:B=b%
 set str=%str:C=c%
