@@ -1,0 +1,32 @@
+@echo off
+title Program na haslo
+color 17
+:titlescreen
+cls
+echo Wprowadz haslo:
+set /p "haslo=>> "
+if %haslo%==12345 goto positive
+if not %haslo%==12345 goto negative
+
+:positive
+cls
+echo :D
+echo.
+echo 1. Powrot do tytulowego ekranu
+echo 2. Wyjdz z programu.
+set /p "wybieram:=>> "
+if %wybieram:%==1 goto titlescreen
+if %wybieram:%==2 goto exit
+
+:negative
+cls
+echo :D
+echo.
+echo 1. Sproboj ponownie
+echo 2. Wyjdz z programu.
+set /p "wybieram:=>> "
+if %wybieram:%==1 goto titlescreen
+if %wybieram:%==2 goto exit
+
+:exit
+exit
