@@ -1,0 +1,8 @@
+@echo off
+cd "C:\Program Files\Google\Chrome\Application\"
+start chrome.exe
+start – "C:\Program Files\Microsoft Office\Office15\WINWORD.EXE"
+"C:\Work\MUO\How to Batch Rename.docx"
+cd "C:\Program Files (x86)\VMware\VMware Player"
+start vmplayer.exe
+Exit
