@@ -4,6 +4,7 @@ cls
 rem MAC Address into Cisco Notation
 set /p "str=Paste or type here your MAC-Address and press "Enter": %*"
 
+set str=%str:.=%
 set str=%str::=%
 set str=%str:-=%
 set str=%str: =%
