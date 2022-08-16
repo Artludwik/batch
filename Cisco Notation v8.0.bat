@@ -9,7 +9,7 @@ SET  /p "s=Paste or type here your MAC-Address and press 'Enter': "
 REM ECHO %s%
 
 for /f "delims=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-:. " %%G in ("%s%") do if not "%%~G"=="" goto :e1
-
+if '%s%'=='' goto :e2
 if "%s:~11,1%"=="" goto :e2
 
 SET s=%s:.=%
