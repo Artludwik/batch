@@ -1,7 +1,7 @@
 @echo off
 title PC Cleanup Tool
 color 0a
-REM Synthetic Crogramming Cleanup Tool slightly modified by Artludwik
+REM Synthetic Programming (Athanasios) Cleanup Tool slightly modified by Artludwik
 :menu
 cls
 echo --------------------------------------------------------------------------------
